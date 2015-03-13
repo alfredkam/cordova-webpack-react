@@ -1,5 +1,5 @@
 var app = require('./cordova-app');
-
+require('../styles/all.css');
 app.initialize();
 
 app.on('deviceready', function (e) {

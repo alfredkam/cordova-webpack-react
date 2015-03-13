@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/rexk/cordova-webpack-react",
   "dependencies": {
+    "css-loader": "^0.9.1",
     "react": "^0.13.0",
+    "style-loader": "^0.8.3",
     "webpack": "^1.7.3"
   }
 }
