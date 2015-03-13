@@ -3,18 +3,18 @@
 webpack:
 	webpack
 
-update:
-	cp dist/bundle.js ./cordova/www/js
+update: webpack
+	cp dist/bundles.js ./cordova/www/js
 
-build-android:
+build-android: webpack update
 	cd cordova && cordova build --debug android
 
-build-ios:
+build-ios: webpack update
 	cd cordova && cordova build --debug ios
 
-run-android: webpack update build-android
+run-android: build-android
 	cd cordova && cordova run --debug --device android
 
-run-ios: webpack update build-ios
+run-ios: build-ios
 	cd cordova && cordova run --debug --emulator ios
 
