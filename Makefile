@@ -4,7 +4,7 @@ webpack:
 	webpack
 
 update: webpack
-	cp dist/bundles.js ./cordova/www/js
+	cp dist/*.js ./cordova/www/js/
 
 build-android: webpack update
 	cd cordova && cordova build --debug android

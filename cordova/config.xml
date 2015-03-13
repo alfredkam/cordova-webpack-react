@@ -14,4 +14,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="res/tacos-128.png" width="128" height="128"/>
 </widget>
