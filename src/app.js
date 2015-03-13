@@ -1,9 +1,11 @@
 var app = require('./cordova-app');
+var log = require('./log');
 require('../styles/all.css');
+
 app.initialize();
 
 app.on('deviceready', function (e) {
-  var args = Array.prototype.slice.call((arguments || []), 0);
+  log('hello', 'world');
   document.getElementById('console').innerHTML = 'received';
   var parentElement = document.getElementById('deviceready');
   var listeningElement = parentElement.querySelector('.listening');
