@@ -1,0 +1,31 @@
+{
+  "name": "cordova-webpack-react",
+  "version": "0.1.0",
+  "description": "Cordova Webpack React in one place",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexk/cordova-webpack-react"
+  },
+  "keywords": [
+    "cordova",
+    "webpack",
+    "mobile",
+    "react",
+    "reactjs",
+    "jsx"
+  ],
+  "author": "rexk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexk/cordova-webpack-react/issues"
+  },
+  "homepage": "https://github.com/rexk/cordova-webpack-react",
+  "dependencies": {
+    "react": "^0.13.0",
+    "webpack": "^1.7.3"
+  }
+}
